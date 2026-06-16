@@ -1,6 +1,5 @@
 @PulseMonitor.Api_HostAddress = http://localhost:5291
 
-GET {{PulseMonitor.Api_HostAddress}}/weatherforecast/
+### Test heartbeat endpoint
+POST {{PulseMonitor.Api_HostAddress}}/api/heartbeat/my-first-job
 Accept: application/json
-
-###
